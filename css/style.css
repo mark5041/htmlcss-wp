@@ -26,6 +26,11 @@ html {
     clear: both;
 }
 
+h2 {
+    font-size: 0.8em;
+    display: inline-block;
+}
+
 /* global */
 
 
@@ -138,10 +143,21 @@ html {
 
 /* nav */
 
-.nav {
-    background-color: #e579e6;
-    height: 5em;
+.header {
+    background-color: #f6f1f6;
+    height: 6em;
 }
+
+.logo {
+    height: 4em;
+    border-right: 1px solid black;
+    padding-right: 1em;
+}
+
+.grey{
+    color: #979797;
+}
+ 
 
 /* nav */
 
@@ -150,7 +166,8 @@ html {
 /* carusel */
 
 .carusel{
-    background-color: #e1d67a;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
     height: 15em;
 }
 
