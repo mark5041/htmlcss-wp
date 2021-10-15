@@ -8,6 +8,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -144,7 +145,6 @@ h2 {
 /* nav */
 
 .header {
-    background-color: #f6f1f6;
     height: 6em;
 }
 
@@ -154,8 +154,12 @@ h2 {
     padding-right: 1em;
 }
 
-.grey{
+.grey-text {
     color: #979797;
+}
+
+.white-text {
+    color: #ffffff;
 }
  
 
@@ -165,10 +169,29 @@ h2 {
 
 /* carusel */
 
-.carusel{
+.carusel {
+    border-radius: 25px;
+    height: 20em;
     background-image: url(../img/banner.jpg);
+    background-position: center;
     background-size: cover;
-    height: 15em;
+}
+
+
+.grey {
+    background-color: #99989891;
+    border-radius: 25px;
+    height: 20em;
+}
+
+.text h2 {
+    font-size: 1.2em;
+    margin-top: 9em;
+}
+
+.text p {
+    font-size: 0.8em;
+    
 }
 
 /* carusel */
